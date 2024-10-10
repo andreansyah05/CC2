@@ -17,16 +17,16 @@ function Navbar() {
     <div className="hidden lg:block">
       <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
         <li className="flex items-center p-3 text-sm gap-x-2 bg-black hover:bg-blue-500 text-white rounded-xl">
-          <Link href="/main-pages" className=" flex items-center">Beranda</Link>
+          <Link href="/home" className=" flex items-center">Home</Link>
         </li>
         <li className="flex items-center p-3 text-sm gap-x-2 bg-black hover:bg-blue-500 text-white rounded-xl">
-          <Link href="/main-pages/product" className="flex items-center">Layanan</Link>
+          <Link href="/product" className="flex items-center">Service</Link>
         </li>
         <li className="flex items-center p-3 text-sm gap-x-2 bg-black hover:bg-blue-500 text-white rounded-xl">
-          <Link href="/main-pages/about" className="flex items-center">Tentang kami</Link>
+          <Link href="/about" className="flex items-center">About Us</Link>
         </li>
         <li className="flex items-center p-3 text-sm gap-x-2 bg-black hover:bg-blue-500 text-white rounded-xl">
-          <Link href="/main-pages/team" className="flex items-center">Hubungi kami</Link>
+          <Link href="/team" className="flex items-center">Team</Link>
         </li>
       </ul>
     </div>
