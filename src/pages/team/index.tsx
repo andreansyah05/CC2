@@ -50,18 +50,18 @@ function index() {
 
       <div className=" text-center container mx-auto p-4 pt-6 md:p-6 lg:p-12">
 
-      <h2 className="text-3xl font-bold mb-4">Our Team</h2>
+      <h2 className="mt-5 text-3xl font-bold mb-4">Our Team</h2>
 
-      <div className="grid grid-cols-4  -mx-4 gap-10">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  -mx-4 gap-10">
 
         {users.map((user,index) => (
     
-         <div className=''key={index}>
+         <div className='mx-auto mt-5'key={index}>
             <img src= {user.picture.large} height={150} width={150} alt={user.name.last}/>
-            <h2 className='px-1'>
+            <h2 className='px-1 mt-5'>
                 {user.name.first} {user.name.last}
             </h2>
-            <p>
+            <p className="bg-yellow-300 rounded-xl border-2 border-black px-1 mt-5">
                 {user.email}
             </p>
 

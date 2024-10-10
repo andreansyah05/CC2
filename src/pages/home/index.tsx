@@ -13,7 +13,7 @@ function Index() {
       </Head>
       <Navbar/>
 
-      <div className='w-screen h-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center mt-[30px]'>
+      <div className=' bg-blue-900 w-screen h-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center mt-[30px]'>
         <section className="w-screen relative bg-[url('/J4o.gif')] bg-cover bg-center h-[700px]">
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 text-center text-white flex flex-col items-center justify-center h-full">
@@ -31,113 +31,178 @@ function Index() {
         </section>
         </div>
 
-        <div className="bg-[url('/hero.gif')] min-h-screen mt-[100px]">
-          <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto py-12 text-center text-black">
+        
+          <div className="border-2 border-black bg-rounded-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto py-12 text-center text-black mt-10">
             {/* Logo Section */}
-            <div className="mb-12">
-              <div className="flex justify-center">
-                <img src="/main.png" alt="Faraya Logo" width={200} height={200} />
-              </div>
-              <h1 className="text-2xl font-semibold mt-4">SELAMAT DATANG DI WEBSITE GOOD PEST</h1>
-              <p className="text-gray-600 mt-2">
-                Good Pest merupakan brand pengendalian hama yang bergerak di bawah naungan PT Faraya Karyatama Mandiri yang
-                merupakan perusahaan jasa Pengendalian Hama yang didirikan di Jakarta pada tahun 2013 dan saat ini menjadi
-                anggota resmi di Asosiasi Perusahaan Pengendalian Hama Indonesia (ASPPHAMI).
-              </p>
-            </div>
-
-            {/* Features Section */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
-              <div title="Profesional">
-                👨‍💼 Perusahaan Profesional yang siap memberikan pelayanan terbaik untuk masalah hama bangunan Anda.
-              </div>
-              <div title="Tenaga Ahli Bersertifikat">
-                📜 Tenaga ahli bersertifikat resmi dari ASPPHAMI siap untuk menangani masalah hama hingga tuntas.
-              </div>
-              <div title="Healthy Home Program">
-                🏠 Program Healthy Home yang membuat rumah bebas hama dan juga menciptakan rumah yang sehat.
-              </div>
-              <div title="4 Layers of Protection">
-                🛡️ Preventive, exclusion, sanitation, dan treatment yang terintegrasi menjamin bangunan Anti hama.
-              </div>
-              <div title="Harga Terjangkau">
-                💰 Anda akan mendapatkan layanan pengendalian hama terbaik dengan harga yang terjangkau.
-              </div>
-              <div title="Commitment SLA">
-                ⚙️ Komitmen kami dalam memenuhi kepuasan pelanggan adalah dengan memberikan pelayanan yang fast response.
-              </div>
-              </div>
-              </div>
-              </div>
+            <div className="container mx-auto p-4 md:p-6 lg:p-8">
+      <h1 className=" text-3xl font-bold mb-4">Selamat Datang di Website Good Pest</h1>
+      <div className="flex flex-wrap justify-center mb-4">
+        <img 
+        className='rounded-xl h-[200px] w-[500px]'
+        src="/main.png" alt="Faraya Logo" />
+      </div>
+      <p className="text-xl mb-4">
+        Good Pest merupakan brand pengendalian hama yang bergerak di bawah naungan PT Good Pest Control yang merupakan perusahaan jasa Pengendalian Hama yang didirikan di Jakarta pada tahun 2013 dan saat ini menjadi anggota resmi di Asosiasi Perusahaan Pengendalian Hama Indonesia (ASPPHAMI).
+      </p>
+      <div className="flex flex-wrap justify-center mb-4">
+        <div className="w-full md:w-1/2 xl:w-1/3 p-4 md:p-6 lg:p-8">
+          <h2 className="text-xl font-bold mb-2">Profesional</h2>
+          <img 
+          className="mx-auto h-[150px] w-[150px]"
+          src="/intro/professional.png" alt="" />
+          <p className="text-lg mb-4">
+            Perusahaan Profesional yang siap memberikan pelayanan terbaik untuk masalah hama bangunan Anda.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 xl:w-1/3 p-4 md:p-6 lg:p-8">
+          <h2 className="text-xl font-bold mb-2">Tenaga Ahli Bersertifikat</h2>
+          <img 
+          className='mx-auto h-[150px] w-[150px]'
+          src="/intro/tenagaahli.png" alt="" />
+          <p className="text-lg mb-4">
+            Tenaga ahli bersertifikat resmi dari ASPPHAMI siap untuk menangani masalah hama hingga tuntas.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 xl:w-1/3 p-4 md:p-6 lg:p-8">
+          <h2 className="text-xl font-bold mb-2">Healthy Home Program</h2>
+          <img 
+          className='mx-auto h-[150px] w-[150px]'
+          src="/intro/home.png" alt="" />
+          <p className="text-lg mb-4">
+            Program Healthy Home yang membuat rumah bebas hama dan juga menciptakan rumah yang sehat.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 xl:w-1/3 p-4 md:p-6 lg:p-8">
+          <h2 className="text-xl font-bold mb-2">4 Layers of Protection</h2>
+          <img 
+          className='mx-auto h-[150px] w-[150px]'
+          src="/intro/layer.png" alt="" />
+          <p className="text-lg mb-4">
+            Preventive, exclusion, sanitation, dan treatment yang terintegrasi menjamin bangunan Anti hama.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 xl:w-1/3 p-4 md:p-6 lg:p-8">
+          <h2 className="text-xl font-bold mb-2">Harga Terjangkau</h2>
+          <img 
+          className='mx-auto h-[150px] w-[150px]'
+          src="/intro/harga.png" alt="" />
+          <p className="text-lg mb-4">
+            Anda akan mendapatkan layanan pengendalian hama terbaik dengan harga yang terjangkau.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 xl:w-1/3 p-4 md:p-6 lg:p-8">
+          <h2 className="text-xl font-bold mb-2">Commitment SLA</h2>
+          <img 
+          className='mx-auto h-[150px] w-[150px]'
+          src="/intro/komitmen.png" alt="" />
+          <p className="text-lg mb-4">
+            Komitmen kami dalam memenuhi kepuasan pelanggan adalah dengan memberikan pelayanan yang fast response, less complaint, less defect, zero accident.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
 
               {/* Layanan */}
 
-<div className="  bg-slate-100 w-screen h-[700px] container mx-auto p-4 mt-[150px] rounded-xl">
-
-<h1 className="text-3xl text-black text-center font-bold mb-4">JENIS PENGENDALIAN </h1>
-
-<div className="h-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-
-   <div className=" bg-slate-100 rounded-xl shadow-md p-4">
-
-    <div className="h-full rounded-xl bg-cover bg-[url('/ascot.png')]">
-
-    <p className=" text-lg font-bold mb-2">ascot</p>
-
-    <p className="text-gray-600">Description of ascot 1</p>
-
-  </div>
-  </div>
-
-  <div className="bg-slate-100 rounded-lg shadow-md p-4">
-
-   <div className="h-full rounded-xl bg-cover bg-[url('/ascot.png')]">
-
-    <p className="text-lg font-bold mb-2">ascot</p>
-
-    <p className="text-gray-600">Description of ascot 2</p>
-
-  </div>
-  </div>
-
-  <div className="bg-slate-100 rounded-lg shadow-md p-4">
-
-    <div className="h-full rounded-xl bg-cover bg-[url('/ascot.png')]">
-    <p className="text-lg font-bold mb-2">ascot</p>
-    <p className="text-gray-600">Description of ascot 3</p>
-
-  </div>
-  </div>
-
-  <div className="bg-slate-100 rounded-lg shadow-md p-4">
-    <div className="h-full rounded-xl bg-cover bg-[url('/ascot.png')]">
-   <p className="text-lg font-bold mb-2">ascot</p>
-   <p className="text-gray-600">Description of ascot 4</p>
-
-  </div>
-  </div>
-
-  <div className="bg-slate-100 rounded-lg shadow-md p-4">
-
-    <div className="h-full rounded-xl bg-cover bg-[url('/ascot.png')]">
-    <p className="text-lg font-bold mb-2">ascot</p>
-    <p className="text-gray-600">Description of ascot 5</p>
-
-  </div>
-  </div>
-
-  <div className="bg-slate-100 rounded-lg shadow-md p-4">
-
-    <div className="h-full rounded-xl bg-cover bg-[url('/ascot.png')]">
-    <p className="text-lg font-bold mb-2">ascot</p>
-    <p className="text-gray-600">Description of ascot 6</p>
-
-  </div>
-  </div>
-
-</div>
-
-</div>
+              <div className="container mx-auto py-12">
+      <h2 className="text-3xl font-bold mb-6 text-center">
+        Jenis Pengendalian Hama
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Rayap */}
+        <div className="bg-white rounded-md shadow-md p-4">
+          <img
+            src="rayap.jpg"
+            alt="Termite"
+            className="w-full h-48 object-cover rounded-md"
+          />
+          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <p className="text-gray-600 mt-2">
+            Pembasmi rayap profesional untuk melindungi rumah Anda.
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Learn More
+          </button>
+        </div>
+        {/* Kecoa */}
+        <div className="bg-white rounded-md shadow-md p-4">
+          <img
+            src="kecoa.jpg"
+            alt="Cockroach"
+            className="w-full h-48 object-cover rounded-md"
+          />
+          <h3 className="text-lg font-medium mt-4">Cockroach Control</h3>
+          <p className="text-gray-600 mt-2">
+            Membasmi kecoa untuk kebersihan dan kesehatan rumah Anda.
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Learn More
+          </button>
+        </div>
+        {/* Tikus */}
+        <div className ="bg-white rounded-md shadow-md p-4">
+          <img
+            src="tikus.jpg"
+            alt="Rat"
+            className="w-full h-48 object-cover rounded-md"
+          />
+          <h3 className="text-lg font-medium mt-4">Rat Control</h3>
+          <p className="text-gray-600 mt-2">
+            Membasmi tikus untuk melindungi rumah dan kesehatan Anda.
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Learn More
+          </button>
+        </div>
+        {/* Nyamuk */}
+        <div className="bg-white rounded-md shadow-md p-4">
+          <img
+            src="nyamuk.jpg"
+            alt="Termite"
+            className="w-full h-48 object-cover rounded-md"
+          />
+          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <p className="text-gray-600 mt-2">
+            Pembasmi rayap profesional untuk melindungi rumah Anda.
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Learn More
+          </button>
+        </div>
+        {/* Tawon */}
+        <div className="bg-white rounded-md shadow-md p-4">
+          <img
+            src="sarang_tawon.jpg"
+            alt="Tawon"
+            className="w-full h-48 object-cover rounded-md"
+          />
+          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <p className="text-gray-600 mt-2">
+            Pembasmi rayap profesional untuk melindungi rumah Anda.
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Learn More
+          </button>
+        </div>
+        {/* Fumigasi */}
+        <div className="bg-white rounded-md shadow-md p-4">
+          <img
+            src="Fumigasi.jpg"
+            alt="Fumigasi"
+            className="w-full h-48 object-cover rounded-md"
+          />
+          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <p className="text-gray-600 mt-2">
+            Pembasmi rayap profesional untuk melindungi rumah Anda.
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
 
 <div className="container mx-auto px-4">
 
@@ -176,93 +241,16 @@ function Index() {
 
                 src="/teknisi.png"
 
-                alt="Topi"
+                alt=""
 
-                width={500}
+                width={1000}
 
-                height={500}
+                height={1000}
 
                 className="rounded-xl"
 
               />
 
-              <span className="ml-2 text-gray-800 font-medium">
-
-                Topi/Helm
-
-              </span>
-
-            </div>
-
-            <div className="flex items-center">
-
-              <img
-
-                src=""
-
-                alt="Earplug"
-
-                width={40}
-
-                height={40}
-
-                className="rounded-full"
-
-              />
-
-              <span className="ml-2 text-gray-800 font-medium">
-
-                Earplug
-
-              </span>
-
-            </div>
-
-            <div className="flex items-center">
-
-              <img
-
-                src=""
-
-                alt="Masker"
-
-                width={40}
-
-                height={40}
-
-                className="rounded-full"
-
-              />
-
-              <span className="ml-2 text-gray-800 font-medium">
-
-                Masker
-
-              </span>
-
-            </div>
-
-            <div className="flex items-center ">
-
-              <img
-
-                src=""
-
-                alt="Sarung Tangan"
-
-                width={40}
-
-                height={40}
-
-                className="rounded-full"
-
-              />
-
-              <span className="ml-2 text-gray-800 font-medium">
-
-                Sarung Tangan
-
-              </span>
 
             </div>
 
@@ -300,13 +288,13 @@ function Index() {
 
               <img
 
-                src=""
+                src="sprayer.png"
 
                 alt="Sprayer"
 
-                width={40}
+                width={180}
 
-                height={40}
+                height={180}
 
                 className="rounded-full"
 
@@ -324,13 +312,13 @@ function Index() {
 
               <img
 
-                src=""
+                src="fogger.png"
 
                 alt="Fogger"
 
-                width={40}
+                width={180}
 
-                height={40}
+                height={180}
 
                 className="rounded-full"
 
@@ -348,13 +336,13 @@ function Index() {
 
               <img
 
-                src=""
+                src="drill.png"
 
                 alt="Drill"
 
-                width={40}
+                width={180}
 
-                height={40}
+                height={180}
 
                 className="rounded-full"
 
@@ -368,6 +356,30 @@ function Index() {
 
             </div>
 
+            <div className="flex items-center">
+
+            <img
+
+             src="/cold.png"
+
+            alt=""
+
+            width={180}
+
+             height={180}
+
+             className="rounded-full"
+
+              />
+
+            <span className="ml-2 text-gray-800 font-medium">
+
+            Cold
+
+            </span>
+
+            </div>
+
           </div>
 
         </div>
@@ -377,10 +389,147 @@ function Index() {
     </div>
 
 
+    <div className="relative mx-auto bg-blue-900 text-white py-20 px-4 text-center md:text-left mt-10">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center space-y-10 md:space-y-0">
+    {/* Text Content */}
+    <div className="w-full md:w-2/3">
+      <h2 className="text-xl font-bold text-blue-400 uppercase mb-2">
+        Bahaya Serangan Hama
+      </h2>
+      <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        Sadari Bahaya Hama <span className="text-blue-300">Sejak Dini</span>
+      </h1>
+      <div className="mx-auto relative h-full md:w-1/3 flex justify-center items-center">
+      <div className="relative w-48 h-48 md:w-56 md:h-56 bg-no-repeat bg-center rounded-full overflow-hidden">
+        <img src="/profile.jpg" alt="Direktur good pest" className="object-cover w-full h-full" />
+      </div>
+    </div>
+      <p className="text-center md:text-left mx-3 text-xl leading-relaxed mt-6">
+        "Tanpa kita sadari, ancaman hama mengintai kesehatan dan jiwa kita setiap saat dan kita kerap mengabaikan pencegahannya hingga musibah terjadi. Ancaman hama secara umum terdiri dari rayap, serangga merayap, serangga terbang, dan hewan pengerat atau sejenis lainnya. Semua hama bisa dibasmi, namun untuk menciptakan area yang bebas hama diperlukan penanganan ahli yang terlatih dan berpengalaman."
+      </p>
+      <div className="text-center  mt-6">
+        <p className="text-sm">ANDREANSYAH PERMANA</p>
+        <p className="text-xl font-semibold">Direktur PT Good Pest</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <Client/>
+
+
+<div className="bg-[#264653] mt-24 md:mt-36">
+
+<div className="container mx-auto px-4 py-16">
+
+  <div className="text-white text-center">
+
+    <h1 className="text-xl md:text-2xl font-bold mb-2">PEST CONTROL BERPENGALAMAN</h1>
+
+    <h2 className="text-3xl md:text-4xl font-bold mb-8">
+
+      Anda Membutuhkan Solusi Pengendalian Hama Profesional dan
+
+      Berpengalaman?
+
+    </h2>
+
+    <button
+
+
+      className="bg-[#007bff] hover:bg-[#0069d9] text-white font-bold py-2 px-4 rounded"
+
+    >
+
+      Hubungi 0856-9202-7708
+
+    </button>
+
+  </div>
+
+</div>
+</div>
+
+<div className="bg-blue-900 text-white px-10 py-20">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="w-1/2">
+          <h1 className="text-3xl font-bold mb-4">PT Faraya Karyatama Mandiri</h1>
+          <p className="text-lg mb-4">
+            Dengan Didukung Oleh Tim yang Solid Serta Profesional, Kami Yakin Dapat
+            Menjadi Solusi Untuk Menyelesaikan Permasalahan Hama di Rumah
+            Ataupun Bisnis Anda.
+          </p>
+          <ul className="flex flex-col gap-2">
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-2 hover:text-blue-500"
+              >
+                <img
+                  src="/icon/instagram.png"
+                  alt="Instagram"
+                  width={20}
+                  height={20}
+                />
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-2 hover:text-blue-500"
+              >
+                <img src="/icon/tiktok.png" alt="TikTok" width={20} height={20} />
+                TikTok
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-2 hover:text-blue-500"
+              >
+                <img
+                  src="/icon/telpon.png"
+                  alt="Phone"
+                  width={20}
+                  height={20}
+                />
+                0856-9202-7708
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-2 hover:text-blue-500"
+              >
+                <img
+                  src="/icon/email.png"
+                  alt="Email"
+                  width={20}
+                  height={20}
+                />
+                sales@faraya.co .id
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="w-1/2">
+          <img
+            className="bg-white rounded-xl mx-auto"
+            src="/asphami.png"
+            alt="Hero Image"
+            width={400}
+            height={400}
+          />
+        </div>
+      </div>
+    </div>
+    
+
       
 
 
-      <Client/>
+      
       <Footer/>
 </>
 

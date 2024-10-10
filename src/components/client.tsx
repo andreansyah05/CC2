@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const CarouselComponent = () => { 
   return (
-    <div className="  rounded-xl mx-auto mt-[190px]">
+    <div className=" rounded-xl mx-auto mt-[50px]">
       <Carousel
         showArrows={true}
         showThumbs={false}
@@ -19,37 +19,37 @@ const CarouselComponent = () => {
       >
         <div className="mx-auto">
           <img 
-          className="h-[300px]"
+          className="md:h-[300px]"
           src="/ascot.png"   />
           
         </div>
         <div>
           <img 
-          className="h-[300px]"
+          className="md:h-[300px]"
           src="baktimulia.png"  />
           
         </div>
         <div>
           <img 
-          className="h-[300px]"
+          className="md:h-[300px]"
           src="ciputra.png"  />
           
         </div>
         <div>
           <img 
-          className="h-[300px]"
+          className="md:h-[300px]"
           src="citadines.png"  />
           
         </div>
         <div>
           <img 
-          className="h-[300px]"
+          className="md:h-[300px]"
           src="dreamtel.png"  />
           
         </div>
         <div>
           <img 
-          className="h-[300px]"
+          className="md:h-[300px]"
           src="element.png"   />
           
         </div>
