@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 import Navbar from '@/components/navbar'
 import Client from '@/components/client'
 import Footer from '@/components/footer'
@@ -20,11 +21,11 @@ function Index() {
             <h1 className="text-5xl md:text-8xl font-bold mb-4">Good Pest</h1>
             <p className="text-3xl md:text-5xl mb-10 text-sky-500">Pengendali Hama Profesional</p>
             <div className="space-x-4">
-              <a href="/tentang-kami" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
+              <a href="/about" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
                 Tentang Kami
               </a>
               <a href="tel:085692027708" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">
-                Hubungi: 0856-9202-7708
+                Hubungi: 021-000-000
               </a>
             </div>
           </div>
@@ -32,7 +33,7 @@ function Index() {
         </div>
 
         
-          <div className="border-2 border-black bg-rounded-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto py-12 text-center text-black mt-10">
+          <div className="border-4 rounded-xl border-black bg-rounded-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto py-12 text-center text-black mt-10">
             {/* Logo Section */}
             <div className="container mx-auto p-4 md:p-6 lg:p-8">
       <h1 className=" text-3xl font-bold mb-4">Selamat Datang di Website Good Pest</h1>
@@ -122,9 +123,11 @@ function Index() {
           <p className="text-gray-600 mt-2">
             Pembasmi rayap profesional untuk melindungi rumah Anda.
           </p>
+          <Link href="/product">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
             Learn More
           </button>
+          </Link>
         </div>
         {/* Kecoa */}
         <div className="bg-white rounded-md shadow-md p-4">
@@ -137,9 +140,11 @@ function Index() {
           <p className="text-gray-600 mt-2">
             Membasmi kecoa untuk kebersihan dan kesehatan rumah Anda.
           </p>
+          <Link href="/product">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
             Learn More
           </button>
+          </Link>
         </div>
         {/* Tikus */}
         <div className ="bg-white rounded-md shadow-md p-4">
@@ -152,9 +157,11 @@ function Index() {
           <p className="text-gray-600 mt-2">
             Membasmi tikus untuk melindungi rumah dan kesehatan Anda.
           </p>
+          <Link href="/product">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
             Learn More
           </button>
+          </Link>
         </div>
         {/* Nyamuk */}
         <div className="bg-white rounded-md shadow-md p-4">
@@ -163,13 +170,15 @@ function Index() {
             alt="Termite"
             className="w-full h-48 object-cover rounded-md"
           />
-          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <h3 className="text-lg font-medium mt-4">Mosquito Control</h3>
           <p className="text-gray-600 mt-2">
-            Pembasmi rayap profesional untuk melindungi rumah Anda.
+            Pembasmi Nyamuk profesional untuk melindungi rumah Anda.
           </p>
+          <Link href="/product">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
             Learn More
           </button>
+          </Link>
         </div>
         {/* Tawon */}
         <div className="bg-white rounded-md shadow-md p-4">
@@ -178,13 +187,15 @@ function Index() {
             alt="Tawon"
             className="w-full h-48 object-cover rounded-md"
           />
-          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <h3 className="text-lg font-medium mt-4">Wasp Control</h3>
           <p className="text-gray-600 mt-2">
-            Pembasmi rayap profesional untuk melindungi rumah Anda.
+            Pembasmi Sarang tawon profesional untuk melindungi rumah Anda.
           </p>
+          <Link href="/product">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
             Learn More
           </button>
+          </Link>
         </div>
         {/* Fumigasi */}
         <div className="bg-white rounded-md shadow-md p-4">
@@ -193,13 +204,15 @@ function Index() {
             alt="Fumigasi"
             className="w-full h-48 object-cover rounded-md"
           />
-          <h3 className="text-lg font-medium mt-4">Termite Control</h3>
+          <h3 className="text-lg font-medium mt-4">Fumigasi Control</h3>
           <p className="text-gray-600 mt-2">
-            Pembasmi rayap profesional untuk melindungi rumah Anda.
+            Fumigasi profesional untuk melindungi tempat anda.
           </p>
+          <Link href="/product">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
             Learn More
           </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -415,7 +428,6 @@ function Index() {
     </div>
   </div>
 
-  <Client/>
 
 
 <div className="bg-[#264653] mt-24 md:mt-36">
@@ -441,7 +453,7 @@ function Index() {
 
     >
 
-      Hubungi 0856-9202-7708
+      Hubungi 021-000-000
 
     </button>
 
@@ -494,7 +506,7 @@ function Index() {
                   width={20}
                   height={20}
                 />
-                0856-9202-7708
+                021-000-000
               </a>
             </li>
             <li>
@@ -508,7 +520,7 @@ function Index() {
                   width={20}
                   height={20}
                 />
-                sales@faraya.co .id
+                sales@Goodpest.co.id
               </a>
             </li>
           </ul>

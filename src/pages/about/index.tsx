@@ -15,51 +15,93 @@ function index() {
       </Head>
       <Navbar/>
 
-      <div className=" text-center container mx-auto p-4 mt-8">
+      <section className="bg-white py-20">
+          <div className="bg-blue-900 container mx-auto p-4 rounded-xl">
+            <h1 className="text-center text-5xl font-bold text-white mb-4">Story: Good Pest</h1>
+            <p className="text-center text-2xl text-white mb-8">PT Good Pest Control adalah perusahaan jasa yang bergerak di bidang Pengendalian Hama yang didirikan pada tahun 2013 oleh para expert yang telah berpengalaman dalam mengendalikan hama.
 
-<h1 className="text-3xl font-bold mb-4">Visi Faraya: Successful Business</h1>
+            Kami berkomitmen memberikan pelayanan terbaik dengan selalu menggunakan Chemical terdaftar dan memiliki MSDS serta aplikasi di lapangan yang sesuai dosis & konsentrasi kimia yang tepat.
 
-<div className="flex flex-col md:flex-row">
+            Dengan didukung oleh tenaga ahli hama berpengalaman, kami yakin dapat melindungi bangunan Anda agar selalu terbebas dari serangan hama.</p>
 
-  <div className="w-full md:w-1/2 p-4">
+            <img 
+            className="h-[400] w[500] mx-auto rounded-xl border-4 border-black"
+            src="teknisiabout.png" alt="teknisi" />
 
-    <h2 className="text-xl font-bold mb-2">Visi:</h2>
 
-    <ul className="list-disc pl-4">
+            <ul className="ml-10 list-disc list-inside text-lg text-white mb-8">
+              <h1 className="text-5xl font-bold mt-[100px]">VISI:</h1>
+              <li className="text-3xl mt-10">kami adalah menjadi mitra terpercaya di bidang jasa pengendalian hama dengan selalu memberikan solusi yang inovatif sehingga setiap mitra kami mampu bersaing dalam skala yang luas.</li>
+              <h1 className="text-5xl font-bold mt-[100px]">Misi:</h1>
+              <div className="text-3xl mt-10">
 
-      <li>Visi kami adalah menjadi mitra terpercaya di bidang jasa pengendalian hama dengan selalu memberikan solusi yang inovatif sehingga setiap mitra kami mampu bersaing dalam skala yang luas.</li>
+              <li> Selalu meningkatkan dan meningkatkan kualitas layanan kami</li>
+              <li> Mengikuti SOP yang berlaku di perusahaan agar selalu tepat sasaran dalam mengendalikan hama</li>
+              <li> Terus berinovasi dalam pengendalian hama agar memberikan kemajuan dalam industri pest control</li>
+              <li> Cepat beradaptasi dengan perubahan zaman</li>
 
-    </ul>
+              </div>
+              
+            </ul>
+           
+          </div>
+        </section>
+
+        <div className=" text-center flex flex-wrap justify-center">
+
+  <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+     <img 
+     className="mx-auto h-[50px]"
+     src="/alamat.png" alt="" />
+
+    <h2 className="text-2xl font-bold mb-2">Alamat</h2>
+
+    <p className="text-lg mb-4">
+
+      Pembina Graha Lt.3<br />
+
+      Jl. D.I. Panjaitan No.45,<br />
+
+      Jatinegara
+
+    </p>
 
   </div>
 
-  <div className="w-full md:w-1/2 p-4">
+  <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+    <img 
+    className="mx-auto h-[50px]"
+    src="/telpon.png" alt="" />
 
-    <h2 className="text-xl font-bold mb-2">Misi:</h2>
+    <h2 className="text-2xl font-bold mb-2">No. Telp</h2>
 
-    <ul className="list-disc pl-4">
+    <p className="text-lg mb-4">
 
-      <li>Selalu meningkatkan dan meningkatkan kualitas layanan kami</li>
+      0856-9202-7708<br />
 
-      <li>Mengikuti SOP yang berlaku di perusahaan agar selalu tepat sasaran dalam mengendalikan hama</li>
+      0856-9202-7709
 
-      <li>Terus berinovasi dalam pengendalian hama agar memberikan kemajuan dalam industri pest control</li>
+    </p>
 
-      <li>Cepat beradaptasi dengan perubahan zaman</li>
+  </div>
 
-    </ul>
+  <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+  <img
+  className="mx-auto h-[50px]" 
+  src="/emailll.png" alt="" />
+
+    <h2 className="text-2xl font-bold mb-2">Email</h2>
+
+    <p className="text-lg mb-4">
+
+      sales@faraya.co.id
+
+    </p>
 
   </div>
 
 </div>
 
-<div className="mt-8">
-
-  <Image src="/image.jpg" alt="Image" width={500} height={300} />
-
-</div>
-
-</div>
 
 
       <Footer/>

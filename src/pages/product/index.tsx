@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Navbar from '@/components/navbar'
+import Client from '@/components/client'
 import Footer from '@/components/footer'
 import { getAllEntries } from '@/utils/api'
 import { useState, useEffect } from 'react'
@@ -43,7 +44,7 @@ function Index() {
           return (
             <div key={item.sys.id} className="max-w-sm w-full p-4 bg-white rounded-lg shadow-md">
               <div className="p-6">
-                <h2 className="text-xl font-bold">{item.fields.title}</h2>
+                <h2 className="text-center text-xl font-bold">{item.fields.title}</h2>
                 <img
                   src={`https:${asset?.fields.file.url}`} // Display the image
                   alt={item.fields.title}
@@ -54,6 +55,8 @@ function Index() {
           );
         })}
       </div>
+
+      <Client />
 
       <Footer />
     </>

@@ -14,7 +14,7 @@ function footer() {
             href="#"
             className="text-slate-700 hover:text-slate-500 focus:text-slate-500 text-sm"
           >
-            About Us
+            Home
           </a>
         </li>
         <li>
@@ -22,7 +22,7 @@ function footer() {
             href="#"
             className="text-slate-700 hover:text-slate-500 focus:text-slate-500 text-sm"
           >
-            License
+            Service
           </a>
         </li>
         <li>
@@ -30,7 +30,7 @@ function footer() {
             href="#"
             className="text-slate-700 hover:text-slate-500 focus:text-slate-500 text-sm"
           >
-            Contribute
+            About
           </a>
         </li>
         <li>
@@ -38,7 +38,7 @@ function footer() {
             href="#"
             className="text-slate-700 hover:text-slate-500 focus:text-slate-500 text-sm"
           >
-            Contact Us
+             Team
           </a>
         </li>
       </ul>
