@@ -77,9 +77,9 @@ function index() {
 
     <p className="text-lg mb-4">
 
-      0856-9202-7708<br />
+      021-0000-0000<br />
 
-      0856-9202-7709
+      
 
     </p>
 
@@ -94,7 +94,7 @@ function index() {
 
     <p className="text-lg mb-4">
 
-      sales@faraya.co.id
+      sales@Goodpest.co.id
 
     </p>
 

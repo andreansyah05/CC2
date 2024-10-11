@@ -422,7 +422,7 @@ function Index() {
       </p>
       <div className="text-center  mt-6">
         <p className="text-sm">ANDREANSYAH PERMANA</p>
-        <p className="text-xl font-semibold">Direktur PT Good Pest</p>
+        <p className="text-xl font-semibold">Owner PT Good Pest</p>
       </div>
     </div>
     </div>
